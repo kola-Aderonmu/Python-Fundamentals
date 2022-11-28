@@ -15,14 +15,14 @@ print(primary)
 
 print(primary["blue"])
 
-square = {1:2, 2:6, 3:"error", 4:16,}
+square = {1:2, 2:6, 3:"error", 4:16, 8:64, 10:100,}
 square[8] = 64
 square[10] = 100
 
 print(square)
 
 primes = {1:4, 2:8, 3:12, 8:16,}
-print(primes(primes[2])) 
+print(primes(primes[2])) #analyse from the rear
 
 
 nums = {
@@ -38,7 +38,7 @@ print(5 in nums) # False
 
 pairs = {
     1:"fruits",
-    "cranberry": [2,3,4]
+    "cranberry": [2,3,4],
     True:False,
     None:"True",
     
@@ -46,7 +46,7 @@ pairs = {
 print(pairs("cranberry"))
 print(pairs.get(1)) # NOTE that the value for 1 is default at True
 print(pairs(7))
-print(pairs.get(*))
+
 print(pairs(12345, "I cant find it in the dictionary"))
 
 

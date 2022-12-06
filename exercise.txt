@@ -1,0 +1,20 @@
+FUNCTION---they take arguements...
+Function will not be performed until they are called.
+Function have "return types"
+**Decorations
+
+ARGUMENTS --are basically the value we pass into the brackets
+PARAMETERS --these are fields provided
+
+Assignment>>>
+
+use the input function to get a user name, input the 2 names and then store in a two variable
+then print out "Welcome your first name is ... and your last name is .....  "
+
+all of this is to be inside a function...
+you will just call it.
+
+
+
+
+

@@ -32,10 +32,6 @@ def my_info():
         
     else:
         return f"Your first name is {name_list[0]}"
-    
-# info = my_info()
-# print(info)
-
 
 def decorator(function):
     def inner(*args):
